@@ -29,7 +29,7 @@ docker run -it --rm \
     --host 0.0.0.0 \
     --port 8000
   ```
-#### 🔷 Step-by-step : Multi-node setup:
+## 🔷 Step-by-step : Multi-node setup:
 ##### Run on master machine
 ```
 sudo docker run -it --rm   --gpus all   --shm-size=60g   -p 6379:6379   -p 8265:8265   -p 10001:10001   -p 8000:8000   -e HUGGING_FACE_HUB_TOKEN=hf_YDBxXkvvvvvvvCfNBasxcKblWKXecJ   -v /data/kubernetes-nfs-storage/hf-cache-ray:/home/ray/.cache/huggingface   rayproject/ray-llm:2.52.0-py311-cu128   bash
