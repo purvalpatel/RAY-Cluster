@@ -5,6 +5,8 @@
 4. Pipeline orchestration
 5. Large scale AI workloads
 
+<img width="700" height="592" alt="image" src="https://github.com/user-attachments/assets/486b82d9-2e5a-4e59-a77b-85798ab1fe24" />
+
 ## POC on local machine:
 
 #### single-node vLLM + Ray LLM container setup.
